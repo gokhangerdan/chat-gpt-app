@@ -9,7 +9,6 @@ from yaml.loader import SafeLoader
 API_KEY = "<your_api_key>"
 MODEL = "gpt-3.5-turbo"  # or gpt-4
 
-# stauth.Hasher(['abc']).generate()
 with open('config.yaml') as file:
     config = yaml.load(file, Loader=SafeLoader)
 
