@@ -1,0 +1,13 @@
+credentials:
+  usernames:
+    jdoe:
+      email: jdoe@gmail.com
+      name: John Doe
+      password: 1234 # To be replaced with hashed password
+cookie:
+  expiry_days: 30
+  key: some_signature_key # Must be string
+  name: some_cookie_name
+preauthorized:
+  emails:
+  - jdoe@gmail.com
